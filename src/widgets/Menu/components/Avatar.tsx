@@ -50,9 +50,7 @@ const Avatar: React.FC<AvatarProps> = ({ profile }) => {
     );
   }
 
-  return (
-    <></>
-  );
+  return <></>;
 };
 
 export default Avatar;
