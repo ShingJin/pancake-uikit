@@ -11,6 +11,7 @@
   "repository": "https://github.com/pancakeswap/pancake-uikit",
   "license": "MIT",
   "scripts": {
+    "start": "react-scripts --max_old_space_size=2560 start",
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",

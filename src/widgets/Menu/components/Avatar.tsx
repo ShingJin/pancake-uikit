@@ -51,12 +51,7 @@ const Avatar: React.FC<AvatarProps> = ({ profile }) => {
   }
 
   return (
-    <StyledAvatar title={username}>
-      <Link to={link} aria-label={ariaLabel}>
-        {icon}
-      </Link>
-      {showPip && <Pip />}
-    </StyledAvatar>
+    <></>
   );
 };
 
