@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap-libs/uikit",
+  "name": "coinmaker-uikit",
   "version": "0.15.0",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-uikit.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShingJin/pancake-uikit"
+  },
   "license": "MIT",
   "scripts": {
     "start": "react-scripts --max_old_space_size=512 start",
@@ -84,5 +87,10 @@
     "lodash": "^4.17.20",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pancakeswap/pancake-uikit/issues"
+  },
+  "homepage": "https://github.com/pancakeswap/pancake-uikit#readme",
+  "author": ""
 }
